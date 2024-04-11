@@ -8,7 +8,7 @@ int main() {
     int front = 0; // Python은 별도로 변수 생성 X
     int back = 0;
 
-for (int i = 0; i < 100; i++) { // Python과 for문 문법이 다름, {}를 안쓰고 들여쓰기를 이용하여 구분
+for (int i = 0; i < 100; i++) { // Python과 for문 문법이 다름(Python은 range를 이용하여 간단하게 사용, C는 시작, 조건, 증감을 전부 사용), {}를 안쓰고 들여쓰기를 이용하여 구분
         int coin = rand() % 2; // Python과 다르게 randon 함수에서 %를 이용하여 0, 1을 선별
 
         if (coin == 0) { //Python과 다르게 ()를 안쓰고 작성
