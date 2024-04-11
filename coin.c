@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // 자체적으로 헤더파일을 불러옴
 #include <stdlib.h> // random 함수를 쓰기위한 헤더파일
 #include <time.h> // 초기화 함수를 위한 헤더파일
 
